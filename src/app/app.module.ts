@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 
 import { StoreModule } from '@ngrx/store'; 
 import { CustomerReducer } from './customer.reducer';
+import { CustomersViewComponent } from './customers-view/customers-view.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CustomersViewComponent
   ],
   imports: [
     BrowserModule,
